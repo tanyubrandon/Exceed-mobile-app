@@ -6,14 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".Transaction">
 
+    <!--Button
+        android:id="@+id/addTransactionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_navigator"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="425dp"
+        android:drawableLeft="@drawable/button_icon"
+        android:text="New Transaction"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_view" /-->
+
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction DGV "
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /-->
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/search_view_bg"
+        app:queryHint="search location..."
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/addTransactionBtn"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="121dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/button_icon"
+        android:text="New Transaction"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Transaction"
-        android:textSize="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="266dp"
+        android:text="Transaction DGV"
+        android:textColor="@color/black"
+        android:textSize="40dp"
         android:textStyle="bold"
-        android:layout_centerInParent="true"
-        android:textColor="@color/black"/>
+        />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"

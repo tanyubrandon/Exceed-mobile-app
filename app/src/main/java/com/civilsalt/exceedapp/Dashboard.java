@@ -119,6 +119,14 @@ public class Dashboard extends AppCompatActivity {
             return true;
         }
 
+        else if (id == R.id.profile) {
+
+            Intent intent = new Intent(Dashboard.this, Profile.class);
+            startActivity(intent);
+
+            return true;
+        }
+
         return false;
     }//End of top navigation
 }

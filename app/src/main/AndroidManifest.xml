@@ -17,6 +17,9 @@
             android:name=".Profile"
             android:exported="false" />
         <activity
+            android:name=".newadminprofile"
+            android:exported="false" />
+        <activity
             android:name=".LinkedDevices"
             android:exported="false" />
         <activity
@@ -26,10 +29,16 @@
             android:name=".Location"
             android:exported="false" />
         <activity
+            android:name=".NewLocation"
+            android:exported="false" />
+        <activity
             android:name=".MeasurementUnit"
             android:exported="false" />
         <activity
             android:name=".Item"
+            android:exported="false" />
+        <activity
+            android:name=".Newitem"
             android:exported="false" />
         <activity
             android:name=".setting"
@@ -45,6 +54,9 @@
             android:exported="false" />
         <activity
             android:name=".Transaction"
+            android:exported="false" />
+        <activity
+            android:name=".NewTransaction"
             android:exported="false" />
         <activity
             android:name=".More"

@@ -6,10 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".Location">
 
+    <Button
+        android:id="@+id/addLocationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/button_icon"
+        android:text="Create New Location"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_view" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:queryHint="search location..."
+        tools:layout_editor_absoluteX="0dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location"
+        android:text="Location DGV "
         android:textColor="@color/black"
         android:textSize="50dp"
         android:textStyle="bold"

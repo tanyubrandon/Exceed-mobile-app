@@ -139,6 +139,15 @@ public class ExceedEcosytem extends AppCompatActivity {
             return true;
         }
 
+
+        else if (id == R.id.profile) {
+
+            Intent intent = new Intent(ExceedEcosytem.this, Profile.class);
+            startActivity(intent);
+
+            return true;
+        }
+
         return false;
     }//End of top navigation
 }

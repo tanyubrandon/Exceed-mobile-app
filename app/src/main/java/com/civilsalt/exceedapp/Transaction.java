@@ -4,14 +4,19 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Transaction extends AppCompatActivity {
 
+
+    Button addTransaction;
     BottomNavigationView bottomNavigationView;
 
     @Override
@@ -19,9 +24,20 @@ public class Transaction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction);
 
+        //Create new stock button onclick listener
+        addTransaction= (Button)findViewById(R.id.addTransactionBtn);
+        addTransaction.setBackgroundColor(Color.WHITE);
+
+        addTransaction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),NewTransaction.class));
+            }
+
+        });
 
         bottomNavigationView =  findViewById(R.id.bottom_navigator);
-        bottomNavigationView.setSelectedItemId(R.id.more);
+        bottomNavigationView.setSelectedItemId(R.id.transaction);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -109,6 +125,15 @@ public class Transaction extends AppCompatActivity {
         else if (id == R.id.role) {
 
             Intent intent = new Intent(Transaction.this, Role.class);
+            startActivity(intent);
+
+            return true;
+        }
+
+
+        else if (id == R.id.profile) {
+
+            Intent intent = new Intent(Transaction.this, Profile.class);
             startActivity(intent);
 
             return true;

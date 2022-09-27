@@ -113,6 +113,15 @@ public class Stock extends AppCompatActivity {
             return true;
         }
 
+
+        else if (id == R.id.profile) {
+
+            Intent intent = new Intent(Stock.this, Profile.class);
+            startActivity(intent);
+
+            return true;
+        }
+
         return false;
     }//End of top navigation
 }
