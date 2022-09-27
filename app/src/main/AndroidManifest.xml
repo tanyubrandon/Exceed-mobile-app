@@ -50,6 +50,9 @@
             android:name=".Stock"
             android:exported="false" />
         <activity
+            android:name=".Newstock"
+            android:exported="false" />
+        <activity
             android:name=".ExceedEcosytem"
             android:exported="false" />
         <activity

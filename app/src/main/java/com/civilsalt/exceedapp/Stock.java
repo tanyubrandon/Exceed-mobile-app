@@ -1,16 +1,21 @@
 package com.civilsalt.exceedapp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Stock extends AppCompatActivity {
+
+    Button addStockBtn;
 
     BottomNavigationView bottomNavigationView;
 
@@ -18,6 +23,19 @@ public class Stock extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stock);
+
+
+         //Create new stock button onclick listener
+        addStockBtn= (Button)findViewById(R.id.addStockBtn);
+        addStockBtn.setBackgroundColor(Color.WHITE);
+
+        addStockBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Newstock.class));
+            }
+
+        });//End of onclick listener
 
         bottomNavigationView =  findViewById(R.id.bottom_navigator);
         bottomNavigationView.setSelectedItemId(R.id.stock);
@@ -113,7 +131,6 @@ public class Stock extends AppCompatActivity {
             return true;
         }
 
-
         else if (id == R.id.profile) {
 
             Intent intent = new Intent(Stock.this, Profile.class);
@@ -124,4 +141,6 @@ public class Stock extends AppCompatActivity {
 
         return false;
     }//End of top navigation
+
+
 }

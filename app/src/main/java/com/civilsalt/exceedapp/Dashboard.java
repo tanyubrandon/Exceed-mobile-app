@@ -1,16 +1,14 @@
 package com.civilsalt.exceedapp;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
-import org.jetbrains.annotations.Contract;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -39,10 +37,10 @@ public class Dashboard extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), ExceedEcosytem.class));
                         overridePendingTransition(0, 0);
                         return true;
-                    case R.id.transaction:
-                        startActivity(new Intent(getApplicationContext(), Transaction.class));
-                        overridePendingTransition(0, 0);
-                        return true;
+//                    case R.id.transaction:
+//                        startActivity(new Intent(getApplicationContext(), Transaction.class));
+//                        overridePendingTransition(0, 0);
+//                        return true;
                     case R.id.stock:
                         startActivity(new Intent(getApplicationContext(), Stock.class));
                         overridePendingTransition(0, 0);
@@ -55,7 +53,9 @@ public class Dashboard extends AppCompatActivity {
                 return false;
             }
         });//End of bottom navigation
+
     }
+
 
     //Top navigation
 
@@ -63,8 +63,9 @@ public class Dashboard extends AppCompatActivity {
     public boolean onCreateOptionsMenu(@NonNull Menu menu) {
 
         getMenuInflater().inflate(R.menu.settings, menu);
-        return true;
+          return true;
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -126,7 +127,9 @@ public class Dashboard extends AppCompatActivity {
 
             return true;
         }
-
         return false;
     }//End of top navigation
+
+    //searchView
+
 }
