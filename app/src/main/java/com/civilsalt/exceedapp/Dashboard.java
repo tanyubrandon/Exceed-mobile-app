@@ -37,10 +37,10 @@ public class Dashboard extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), ExceedEcosytem.class));
                         overridePendingTransition(0, 0);
                         return true;
-//                    case R.id.transaction:
-//                        startActivity(new Intent(getApplicationContext(), Transaction.class));
-//                        overridePendingTransition(0, 0);
-//                        return true;
+                    case R.id.transaction:
+                        startActivity(new Intent(getApplicationContext(), Transaction.class));
+                        overridePendingTransition(0, 0);
+                        return true;
                     case R.id.stock:
                         startActivity(new Intent(getApplicationContext(), Stock.class));
                         overridePendingTransition(0, 0);

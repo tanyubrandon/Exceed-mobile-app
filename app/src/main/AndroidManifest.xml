@@ -7,7 +7,7 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_exceed"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_exceed_round"
         android:supportsRtl="true"
@@ -18,7 +18,8 @@
             android:exported="false" />
         <activity
             android:name=".newadminprofile"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.customDesign" />
         <activity
             android:name=".LinkedDevices"
             android:exported="false" />
@@ -30,7 +31,8 @@
             android:exported="false" />
         <activity
             android:name=".NewLocation"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.customDesign" />
         <activity
             android:name=".MeasurementUnit"
             android:exported="false" />
@@ -39,7 +41,8 @@
             android:exported="false" />
         <activity
             android:name=".Newitem"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.customDesign" />
         <activity
             android:name=".setting"
             android:exported="false" />
@@ -86,8 +89,8 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
 </manifest>

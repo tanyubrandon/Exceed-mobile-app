@@ -28,6 +28,18 @@
         <entry key="..\:/Users/DELL USER/Desktop/CivilSalt_ Njua Berenice/ExceedApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/DELL USER/Desktop/CivilSalt_ Njua Berenice/ExceedApp/app/src/main/res/layout/activity_scanner.xml" value="0.24375" />
         <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable-v24/country.xml" value="0.1695" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable-v24/ic_clear.xml" value="0.141" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable-v24/ic_exceed.xml" value="0.1305" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.141" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable/background_dashboard.xml" value="0.141" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable/dash_board_background.xml" value="0.141" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.141" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable/ic_exceed_background.xml" value="0.1305" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.141" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/drawable/selector.xml" value="0.1695" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_dashboard_card1.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_dashboard_old.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_item.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_location.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_more.xml" value="0.17604166666666668" />
@@ -39,6 +51,16 @@
         <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_setting.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_stock.xml" value="0.17604166666666668" />
         <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/activity_transaction.xml" value="0.1" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard_background.xml" value="0.203125" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard_card_1.xml" value="0.33" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard_card_2.xml" value="0.203125" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard_card_2b.xml" value="0.203125" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard_card_3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard_card_4.xml" value="0.203125" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/layout/dashboard_card_5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/mipmap-anydpi-v26/ic_exceed.xml" value="0.1695" />
+        <entry key="..\:/Users/TANYU/Documents/Desktop/Exceed-Project/Exceed-mobile-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.141" />
       </map>
     </option>
   </component>

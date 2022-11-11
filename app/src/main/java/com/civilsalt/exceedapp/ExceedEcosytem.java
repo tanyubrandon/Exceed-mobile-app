@@ -53,6 +53,9 @@ public class ExceedEcosytem extends AppCompatActivity {
 
                 switch(item.getItemId()){
                     case R.id.dashboard:
+                        startActivity(new Intent(getApplicationContext(), Dashboard.class));
+                        overridePendingTransition(0,0);
+                        return true;
                     case R.id.home:
                         startActivity(new Intent(getApplicationContext(), ExceedEcosytem.class));
                         overridePendingTransition(0,0);
